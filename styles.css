@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: whitesmoke;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    display: flex; /* Add Flexbox */
+    justify-content: center; /* Center the content */
+    align-items: center; /* Vertically align items */
+    position: relative; /* Allow positioning of elements inside */
+}
+
+.homepage-link {
+    position: absolute; /* Position it relative to the header */
+    left: 20px; /* Adjust the distance from the left edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust alignment */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #23527c;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+section ul, section ol, section li {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: lightseagreen solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+a:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightseagreen;
+}
+
+.orange-button {
+    background-color: orange;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.orange-button:hover {
+    background-color: lightseagreen;
+}
